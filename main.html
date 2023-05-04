@@ -12,7 +12,7 @@
 	<h1>Internship Form</h1>
 	<form class="row g-3">
   <div class="col-md-4">
-    <label for="first-name-input" class="form-label">First name</label>
+    <label.form-lable for="first-name-input" class="form-label">First name</label>
     <input type="text" class="form-control is-invalid" id="first-name-input"  required>
     <div class="invalid-feedback">
       First name required!
@@ -29,7 +29,7 @@
     <label for="email-input" class="form-label">Email</label>
     <div class="input-group has-validation">
 <!--       <span class="input-group-text" id="inputGroupPrepend3"></span> -->
-      <input type="text" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" value ="xyz@abc.com" required>
+      <input type="email" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" value ="xyz@abc.com" required>
       <div id="email-input" class="invalid-feedback">
         Email requred!
       </div>
@@ -43,15 +43,15 @@
     </div>
   </div>
   <div class="col-md-3">
-    <label for="validationServer04" class="form-label">Graduation Year</label>
-    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+    <label for="grad-year-select" class="form-label">Graduation Year</label>
+    <select class="form-select is-invalid" id="grad-year-select" aria-describedby="validationServer04Feedback" required>
       <option selected disabled value="">Choose...</option>
       <option>2020</option>
 	  <option>2021</option>
 	  <option>2022</option>
 	  <option>2023</option>
     </select>
-    <div id="validationServer04Feedback" class="invalid-feedback">
+    <div id="grad-year-select" class="invalid-feedback">
       Please select a valid Graduation Year.
     </div>
   </div>
